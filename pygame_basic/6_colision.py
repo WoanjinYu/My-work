@@ -87,8 +87,8 @@ while running:
     character_rect.top = character_y_pos
 
     enemy_rect = enemy.get_rect()
-    # enemy_rect.left = enemy_x_pos
-    # enemy_rect.top = enemy_y_pos
+    enemy_rect.left = enemy_x_pos
+    enemy_rect.top = enemy_y_pos
     
     #충돌 체크
     if character_rect.colliderect(enemy_rect):

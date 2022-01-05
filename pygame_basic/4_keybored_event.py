@@ -36,9 +36,9 @@ while running:
         if event.type == pygame.KEYDOWN: # 키가 눌러졌는지 확인
             if event.key == pygame.K_LEFT: #캐릭터를 왼쪽으로
                 to_x -= 2 #  to_x = to_x - 5
-            elif event.key == pygame.K_RIGHT: #캐릭터를 오른쪽드로
+            elif event.key == pygame.K_RIGHT: #캐릭터를 오른쪽으로
                 to_x += 2
-            elif event.key == pygame.K_UP: #캐릭터를 로
+            elif event.key == pygame.K_UP: #캐릭터를 위로
                 to_y -= 2
             elif event.key == pygame.K_DOWN: #캐릭터를 아래로
                 to_y += 2
